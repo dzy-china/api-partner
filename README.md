@@ -15,4 +15,6 @@ A lightweight local api server software
 3. **No port conflict:** Disable multiple opening
 
 ## Product preview
-![Product preview](preview.png)
+![2023-06-15_144031.png](2023-06-15_144031.png)
+![22023-06-15_144037.png](2023-06-15_144037.png)
+![2023-06-15_144103.png](2023-06-15_144103.png)

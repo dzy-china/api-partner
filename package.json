@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "name": "api-partner",
+  "name": "api-server",
   "description": "a local api server client that does not depend on the network",
   "private": true,
   "version": "0.1.0",

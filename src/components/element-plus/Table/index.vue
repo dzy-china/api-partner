@@ -33,7 +33,7 @@
 <!--新增弹框 -->
   <el-dialog
       v-model="dialogVisible"
-      title="添加路由"
+      title="新增"
       width="50%"
       draggable
   >
@@ -78,7 +78,7 @@
   <!--编辑弹框 -->
   <el-dialog
       v-model="editDialogVisible"
-      title="添加路由"
+      title="编辑"
       width="50%"
       draggable
   >

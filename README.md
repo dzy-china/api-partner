@@ -1,5 +1,4 @@
 # api partner
-a local api server client that does not depend on the network
-
-## preview
-![preview](preview.png)
+A lightweight local api server software
+## Product preview
+![Product preview](preview.png)

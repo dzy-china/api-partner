@@ -1,7 +1,7 @@
 {
   "license": "MIT",
-  "name": "api-server",
-  "description": "a local api server client that does not depend on the network",
+  "name": "api-partner",
+  "description": "A lightweight local api server software",
   "private": true,
   "version": "0.1.0",
   "main": "dist-electron/main.js",

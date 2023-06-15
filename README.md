@@ -7,7 +7,6 @@ A lightweight local api server software
 - electron 25.x
 - express 4.x
 - sqlite3
-- sqlite3
 - element-plus 2.x
 
 # Features:

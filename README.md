@@ -1,20 +1,21 @@
-# api partner
-A lightweight local api server software
+# API伴侣
+一个轻量级本地启动的api服务器软件，可用于本地快速测试http或ajax请求
 
+# 特点：
+1. **支持数据热更新：** 新增、删除、修改 数据，不必重启软件
+2. **数据持久化：** 数据存储在 sqlite3 数据库
+3. **没有端口冲突：** 禁用多开
 
-# Technology Stack
+## 产品预览
+![2023-06-15_145619.png](2023-06-15_145619.png)
+![2023-06-15_145528.png](2023-06-15_145528.png)
+![2023-06-15_145502.png](2023-06-15_145502.png)
+
+# 技术栈
 - vite 4.x vue 3.x
 - electron 25.x
 - express 4.x
 - sqlite3
 - element-plus 2.x
 
-# Features:
-1. **Support data hot update:** Add, delete, modify data without restarting the software
-2. **Data persistence:** Data is stored in sqlite3 database
-3. **No port conflict:** Disable multiple opening
 
-## Product preview
-![2023-06-15_145619.png](2023-06-15_145619.png)
-![2023-06-15_145528.png](2023-06-15_145528.png)
-![2023-06-15_145502.png](2023-06-15_145502.png)

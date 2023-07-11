@@ -3,7 +3,7 @@
   "name": "api-partner",
   "description": "一个轻量级本地启动的api服务器软件，可用于本地快速测试http或ajax请求",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
@@ -14,18 +14,18 @@
     "extends": "electron-builder.config.json"
   },
   "dependencies": {
-    "element-plus": "^2.3.6",
+    "element-plus": "^2.3.7",
     "express": "^4.18.2",
-    "sqlite3": "^5.0.0",
-    "vue": "^3.2.47"
+    "sql.js": "^1.8.0",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.1.0",
-    "electron": "^25.1.0",
-    "electron-builder": "^23.6.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "electron": "^25.2.0",
+    "electron-builder": "^24.4.0",
     "unplugin-auto-import": "^0.16.4",
     "unplugin-vue-components": "^0.25.1",
-    "vite": "^4.3.9",
-    "vite-plugin-electron": "^0.11.2"
+    "vite": "^4.4.2",
+    "vite-plugin-electron": "^0.12.0"
   }
 }

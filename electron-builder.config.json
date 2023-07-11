@@ -16,8 +16,6 @@
   ],
   "nsis": {
     "oneClick": false,
-    "perMachine":false,
-    "allowElevation": true,
     "allowToChangeInstallationDirectory": true,
     "installerIcon": "./public/images/apiLogo.ico",
     "uninstallerIcon": "./public/images/apiLogo.ico",
@@ -28,8 +26,7 @@
   },
 
   "win": {
-    "icon": "./public/images/apiLogo.ico",
-    "requestedExecutionLevel": "requireAdministrator"
+    "icon": "./public/images/apiLogo.ico"
   },
 
   "linux": {

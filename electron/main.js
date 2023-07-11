@@ -1,11 +1,12 @@
 
 import { app, BrowserWindow, ipcMain} from 'electron';
 import path from 'path';
-
+const ApiSqlite = require("./ApiSqlite");
 import express from 'express';
+const preloadPath = path.join(__dirname, 'preload.js')
 
 let win = null
-// 判断当前实例是不是第一个实例
+// 判断当前实例是不是仅仅只有一个实例
 const gotTheLock = app.requestSingleInstanceLock()
 
 if (!gotTheLock) {
@@ -25,11 +26,9 @@ if (!gotTheLock) {
 
     // 启动应用程序
     const ExpressServer = expressApp.listen(expressPort, () => {
-        console.log('Express server listening on port 3000!');
+        console.log(`Express server listening on port ${expressPort}!`);
     });
 
-    // 实例化 Sqlite
-    const ApiSqlite = require("./ApiSqlite");
     const apiSqlite = new ApiSqlite( path.resolve(app.isPackaged?"resources/":"", "db/localData.db") );
 
 
@@ -101,7 +100,7 @@ if (!gotTheLock) {
                 // enableRemoteModule:true,  // 开启可在渲染进程中直接引入node模块
                 sandbox: false, // 开启关闭沙箱模式
                 webviewTag:true,  // 开启webview
-                preload: path.join(__dirname, 'preload.js'),
+                preload: preloadPath,
             }
         });
 
